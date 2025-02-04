@@ -6,8 +6,8 @@ resource "aws_cloudwatch_metric_alarm" "alarms12"{
   evaluation_periods  = 1
   namespace   = "AWS/EC2"
   metric_name = "CPUUtilization"
-  threshold           = 0.6
-  period              = 60
+  threshold           = 85
+  period              = 120
   unit                = "Count"
 
   
