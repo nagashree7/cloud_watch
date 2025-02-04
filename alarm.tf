@@ -1,6 +1,6 @@
 resource "aws_cloudwatch_metric_alarm" "alarms12"{
 
-  alarm_name          = "demoess1-alarm"
+  alarm_name          = "demo-alarm"
   alarm_description   = "monitors ec2 cpu utilisation"
   comparison_operator = "GreaterThanOrEqualToThreshold"
   evaluation_periods  = 1
