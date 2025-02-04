@@ -11,7 +11,7 @@
 #   region = "us-east-1"
 # }
 
-resource "aws_instance" "web" {
+resource "aws_instance" "vm" {
   ami           = "ami-0c614dee691cbbf37"  
   instance_type = "t2.micro"  
   availability_zone = "us-east-1a"
