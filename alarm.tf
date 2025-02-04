@@ -12,7 +12,7 @@ resource "aws_cloudwatch_metric_alarm" "alarms12"{
 
   
   statistic   = "Average"
-  treat_missing_data = "breaching"
+  treat_missing_data = "notBreaching"
   dimensions = {
     InstanceId = aws_instance.vm.id
   }
